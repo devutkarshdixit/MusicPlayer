@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,105 @@
     <link rel="stylesheet" href="style.css">
     <title>Music Player By Utkarsh Dixit</title>
 </head>
+
 <body>
-    <div>
-        <h1>Hey, this is the Initial phase.</h1>
+    <nav>
+        <ul>
+            <a href="/">
+                <li class="brand"><img src="logo.png" alt="Spotify"> Spotify Clone </li>
+            </a>
+            <a href="/about.html">
+                <li>About</li>
+            </a>
+            <a href="https://utkarsh-dixit-git.github.io/utkarshdixit/" target="_blank" rel="noopener noreferrer">
+                <li>Created By Utkarsh Dixit</li>
+            </a>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Welcome to The Clone of Spotify Web Player (No Ads😁)</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">04:41 <i id="0"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">03:02 <i id="1"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="3">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">02:41 <i id="2"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="4">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">02:29 <i id="3"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="5">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">02:48 <i id="4"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="6">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">05:24 <i id="5"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="7">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="6"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="7"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="8"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="9"
+                                class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="100px" alt="" id="gif"> <span id="masterSongName">Despacito [Luis Fonsi, Daddy Yankee]</span>
+        </div>
     </div>
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
