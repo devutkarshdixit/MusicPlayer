@@ -126,6 +126,7 @@ a {
 #gif {
     position: relative;
     top: 1.5rem;
+    pointer-events: none;
 }
 
 @media only screen and (max-width: 1100px) {
