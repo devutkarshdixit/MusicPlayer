@@ -21,12 +21,12 @@ let songs = [
     coverPath: "covers/2.jpg",
   },
   {
-    songName: "Mood-Lofi [Yagih Mael]",
+    songName: "Samjho Na [Aditya Rikhari]",
     filePath: "songs/3.mp3",
     coverPath: "covers/3.jpg",
   },
   {
-    songName: "Saibo Lofi [Shreya Goshal]",
+    songName: "BIBA [Marshmello x Pritam]",
     filePath: "songs/4.mp3",
     coverPath: "covers/4.jpg",
   },
@@ -41,22 +41,22 @@ let songs = [
     coverPath: "covers/6.jpg",
   },
   {
-    songName: "Sakhiyaan - Salam-e-Ishq",
+    songName: "Aadmi Chutiya Hai [Rahgir]",
     filePath: "songs/2.mp3",
     coverPath: "covers/7.jpg",
   },
   {
-    songName: "Bhula Dena - Salam-e-Ishq",
+    songName: "Light Switch [Japanase Version]",
     filePath: "songs/2.mp3",
     coverPath: "covers/8.jpg",
   },
   {
-    songName: "Tumhari Kasam - Salam-e-Ishq",
+    songName: "Mera Jahan [Gajendra Verma]",
     filePath: "songs/2.mp3",
     coverPath: "covers/9.jpg",
   },
   {
-    songName: "Na Jaana - Salam-e-Ishq",
+    songName: "Nasha [Equal Sessions]",
     filePath: "songs/4.mp3",
     coverPath: "covers/10.jpg",
   },
