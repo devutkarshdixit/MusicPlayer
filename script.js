@@ -36,7 +36,7 @@ let songs = [
     coverPath: "covers/5.jpg",
   },
   {
-    songName: "Heartless [Arijit Singh]",
+    songName: "Ik Lamha [Aznaan Sami Khan]",
     filePath: "songs/2.mp3",
     coverPath: "covers/6.jpg",
   },
